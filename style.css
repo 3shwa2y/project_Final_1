@@ -1,0 +1,205 @@
+body {
+margin: 0;
+padding: 0;
+background-color: oklab(96.857% 0.00186 -0.00648);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.abou {
+    background-color: #1A1A1A;
+    text-align: center;
+}
+
+.bdy {
+background-color: #9b0000;
+}
+
+.nave {
+background-color: #000000;
+text-align: center;
+border: 2px solid rgb(181, 2, 2);
+}
+
+.nave a {
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.nave a:hover {
+    color: black;
+    background-color: white;
+}
+
+.basee {
+    text-align: center;
+    background-color: #242424a3;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(255, 0, 0, 0.666);
+}
+
+#press {
+    background-color: #8B0000;
+    color: white;
+    width: 95%;
+    cursor: pointer;
+}
+
+#press:hover {
+    color: white;
+    background-color: #420000;
+}
+
+.basee input {
+    width: 80%;
+    padding: 10px;
+    border: 3px #8B0000 solid;
+    border-radius: 8px;
+    outline: none;
+}
+
+.x {
+    margin-left: 770px;
+    margin-top: -200px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 700px;
+    box-shadow: 1px 1px 20px rgba(255, 0, 0, 0.666);
+    background-image: url(expensive.png);
+    background-position: right;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.photo1{
+    width: 750px;
+    height: 550px;
+    background-image: url("1.png");
+    background-size: cover;
+    margin-left: 380px;
+    margin-top: 40px;
+    box-shadow: 1px 5px 20px rgba(255, 0, 0, 0.666);
+    border-radius: 30px;
+}
+
+.photo2 {
+    width: 750px;
+    height: 550px;
+    background-image: url("2.png");
+    background-size: cover;
+    margin-left: 350px;
+    margin-top: 40px;
+    box-shadow: 1px 5px 20px rgba(255, 0, 0, 0.666);
+    border-radius: 30px;
+}
+
+.photo3 {
+    width: 750px;
+    height: 550px;
+    background-image: url("3.png");
+    background-size: cover;
+    margin-left: 350px;
+    margin-top: 40px;
+    box-shadow: 1px 5px 20px rgba(255, 0, 0, 0.666);
+    border-radius: 30px;
+}
+
+#link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.lin {
+    text-decoration: none;
+    color: #800000;
+    padding: 20px;
+    border: #cc0000 2px solid;
+    margin-left: 300px;
+}
+
+.lin:hover {
+    background-color: #800000;
+    color: white;
+}
+
+.fnt {
+margin-left: 15px;
+font-size: x-large;
+color: white;
+}
+
+.bgg {
+    background-color: #1A1A1A;
+    background-size: cover;
+}
+
+
+header {
+    font-size: larger;
+    color: rgb(216, 0, 0);
+}
+
+
+main h1 {
+    padding: 100px;
+    color: #cc0000;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    background-color: #707070;
+    border: 1px solid #840000;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 20px rgba(184, 2, 2, 0.818);
+}
+
+.box h2 {
+    color: #840000;
+}
+
+.box:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(159, 0, 0);
+}
+
+.rad {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.age {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.background-image {
+            background-image: url("car.jpg");
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            filter: blur(10px);
+            position: fixed;
+            z-index: -1;
+            transform: scale(1.1); 
+        }
